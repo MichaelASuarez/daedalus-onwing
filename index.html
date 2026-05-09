@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daedalus onWing — Pushing Mobile and AI Boundaries</title>
+  <meta name="description" content="Independent software studio crafting iOS apps and AI tools. Home of RetireMint and Minder.ai. Built in Ann Arbor. Featured at Apple.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Daedalus onWing — Pushing Mobile and AI Boundaries">
+  <meta property="og:description" content="Independent software studio crafting iOS apps and AI tools. Home of RetireMint and Minder.ai.">
+  <meta property="og:url" content="https://daedalus-onwing.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+
+<!-- ── Navigation ── -->
+<nav class="nav" id="nav">
+  <div class="nav-inner container">
+    <a href="/index.html" class="nav-logo">
+      <img src="/assets/svg/logo-daedalus.svg" alt="Daedalus onWing" height="32" width="160">
+    </a>
+    <ul class="nav-links">
+      <li><a href="/index.html" class="nav-link active">Home</a></li>
+      <li class="nav-item-dropdown">
+        <button class="nav-link nav-dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+          Products
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+            <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="/products/retiremint.html" class="nav-dropdown-item">
+            <img src="/assets/svg/logo-retiremint.svg" height="22" width="110" alt="">
+            <div>
+              <strong>RetireMint</strong>
+              <span>Retirement planning simulator</span>
+            </div>
+          </a>
+          <div class="nav-dropdown-divider"></div>
+          <a href="/products/minder-ai.html" class="nav-dropdown-item">
+            <img src="/assets/svg/logo-minder.svg" height="22" width="100" alt="">
+            <div>
+              <strong>Minder.ai</strong>
+              <span>Proactive knowledge intelligence</span>
+            </div>
+          </a>
+        </div>
+      </li>
+      <li><a href="/about.html" class="nav-link">About</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav-mobile-drawer">
+    <a href="/index.html" class="nav-mobile-link">Home</a>
+    <div class="nav-mobile-label">Products</div>
+    <a href="/products/retiremint.html" class="nav-mobile-link nav-mobile-link--sub">RetireMint</a>
+    <a href="/products/minder-ai.html"  class="nav-mobile-link nav-mobile-link--sub">Minder.ai</a>
+    <a href="/about.html" class="nav-mobile-link">About</a>
+  </div>
+</nav>
+
+<main style="padding-top: 68px;">
+
+  <!-- ── Hero ── -->
+  <section class="hero hero-glow-brand">
+    <div class="hero-content">
+      <img src="/assets/images/hero-daedalus.png"
+           alt="Daedalus onWing" class="hero-logo animate-in"
+           width="160" height="160"
+           style="border-radius: 28px; box-shadow: 0 0 60px rgba(61,155,233,0.3);">
+      <div class="hero-eyebrow animate-in" style="--delay:100ms">Ann Arbor, Michigan</div>
+      <h1 class="animate-in" style="--delay:180ms">
+        <span class="grad-brand">Daedalus</span> onWing
+      </h1>
+      <p class="hero-tagline animate-in" style="--delay:240ms">
+        Pushing mobile and AI boundaries
+      </p>
+      <p class="hero-desc animate-in" style="--delay:300ms">
+        Independent software studio crafting iOS apps and AI tools.<br>
+        Built in Ann Arbor. Featured at Apple.
+      </p>
+      <div class="hero-cta animate-in" style="--delay:380ms">
+        <a href="#products" class="btn btn-primary">View Products</a>
+        <a href="/about.html" class="btn btn-ghost">About Michael</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <path d="M8 3v10M4 9l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ── Products ── -->
+  <section class="section" id="products">
+    <div class="container">
+      <div class="section-header animate-in">
+        <span class="section-label">Products</span>
+        <h2>Tools built for people who think precisely</h2>
+        <p>Each app starts with a real problem — retirement uncertainty, information overload — and solves it with engineering rigor.</p>
+      </div>
+
+      <div class="products-grid">
+        <!-- RetireMint -->
+        <div class="product-card product-card-mint animate-in" style="--delay:80ms">
+          <div class="product-card-header">
+            <span class="badge badge-mint">iOS App</span>
+          </div>
+          <img src="/assets/images/retiremint-logo.png"
+               alt="RetireMint" class="product-logo"
+               width="72" height="72"
+               style="border-radius: 16px;">
+          <div>
+            <h3>RetireMint</h3>
+            <p>Month-by-month retirement simulation with Monte Carlo analysis, historical backtesting against real market crises, and intelligent withdrawal modeling.</p>
+          </div>
+          <div class="product-features">
+            <div class="product-feature">
+              <span class="product-feature-dot dot-mint"></span>
+              Monte Carlo Simulation
+            </div>
+            <div class="product-feature">
+              <span class="product-feature-dot dot-mint"></span>
+              Historical Backtesting (2008, dot-com, stagflation)
+            </div>
+            <div class="product-feature">
+              <span class="product-feature-dot dot-mint"></span>
+              Pension &amp; Mortgage Modeling
+            </div>
+          </div>
+          <div class="product-card-footer">
+            <a href="/products/retiremint.html" class="btn btn-sm btn-mint">Learn More →</a>
+            <span class="badge badge-neutral">App Store</span>
+          </div>
+        </div>
+
+        <!-- Minder.ai -->
+        <div class="product-card product-card-mind animate-in" style="--delay:160ms">
+          <div class="product-card-header">
+            <span class="badge badge-mind">iOS + AI</span>
+          </div>
+          <img src="/assets/images/minder-appname.png"
+               alt="Minder.ai" class="product-logo"
+               width="72" height="72"
+               style="border-radius: 16px; object-fit: contain; background: #1a0f3a; padding: 6px;">
+          <div>
+            <h3>Minder.ai</h3>
+            <p>Your thoughts, compounded by intelligence. Capture ideas, get proactive briefings — news alerts, location awareness, calendar context, Claude AI chat.</p>
+          </div>
+          <div class="product-features">
+            <div class="product-feature">
+              <span class="product-feature-dot dot-mind"></span>
+              Semantic Vector Search
+            </div>
+            <div class="product-feature">
+              <span class="product-feature-dot dot-mind"></span>
+              Proactive News &amp; Location Intelligence
+            </div>
+            <div class="product-feature">
+              <span class="product-feature-dot dot-mind"></span>
+              Claude AI Chat + MCP Integration
+            </div>
+          </div>
+          <div class="product-card-footer">
+            <a href="/products/minder-ai.html" class="btn btn-sm btn-mind">Learn More →</a>
+            <span class="mcp-pill">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <circle cx="6" cy="6" r="2.5" fill="currentColor"/>
+                <circle cx="1.5" cy="2" r="1.5" fill="currentColor" opacity="0.6"/>
+                <circle cx="10.5" cy="2" r="1.5" fill="currentColor" opacity="0.6"/>
+                <circle cx="1.5" cy="10" r="1.5" fill="currentColor" opacity="0.6"/>
+                <circle cx="10.5" cy="10" r="1.5" fill="currentColor" opacity="0.6"/>
+                <line x1="6" y1="6" x2="1.5" y2="2" stroke="currentColor" stroke-width="0.8" opacity="0.5"/>
+                <line x1="6" y1="6" x2="10.5" y2="2" stroke="currentColor" stroke-width="0.8" opacity="0.5"/>
+                <line x1="6" y1="6" x2="1.5" y2="10" stroke="currentColor" stroke-width="0.8" opacity="0.5"/>
+                <line x1="6" y1="6" x2="10.5" y2="10" stroke="currentColor" stroke-width="0.8" opacity="0.5"/>
+              </svg>
+              Claude Desktop MCP
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Studio Philosophy ── -->
+  <section class="section-sm" style="background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+    <div class="container">
+      <div class="section-header animate-in">
+        <span class="section-label">Philosophy</span>
+        <h2>How we build</h2>
+      </div>
+      <div class="philosophy-grid">
+        <div class="philosophy-card animate-in" style="--delay:60ms">
+          <div class="philosophy-icon">
+            <!-- Wing icon -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M12 18C8 14 3 10 2 6c3 2 7 6 10 9z" fill="currentColor" opacity="0.9"/>
+              <path d="M12 18c4-4 9-8 10-12-3 2-7 6-10 9z" fill="currentColor" opacity="0.9"/>
+              <rect x="11" y="14" width="2" height="6" rx="1" fill="currentColor"/>
+              <circle cx="12" cy="13" r="1.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>Craftsman Mentality</h3>
+          <p>Named for the mythical inventor who pushed beyond limits. Every detail is intentional — no feature ships until it works precisely.</p>
+        </div>
+        <div class="philosophy-card animate-in" style="--delay:140ms">
+          <div class="philosophy-icon" style="background: var(--mint-glow); color: var(--mint);">
+            <!-- Chip icon -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <rect x="7" y="7" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M9 4v3M12 4v3M15 4v3M9 17v3M12 17v3M15 17v3M4 9h3M4 12h3M4 15h3M17 9h3M17 12h3M17 15h3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Native First</h3>
+          <p>Swift and SwiftUI — real performance, real platform integration, no web wrappers. Apps built the way Apple intended.</p>
+        </div>
+        <div class="philosophy-card animate-in" style="--delay:220ms">
+          <div class="philosophy-icon" style="background: var(--mind-glow); color: var(--mind);">
+            <!-- Brain/nodes icon -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="3" fill="currentColor"/>
+              <circle cx="5" cy="7"  r="2" fill="currentColor" opacity="0.7"/>
+              <circle cx="19" cy="7" r="2" fill="currentColor" opacity="0.7"/>
+              <circle cx="5" cy="17" r="2" fill="currentColor" opacity="0.5"/>
+              <circle cx="19" cy="17" r="2" fill="currentColor" opacity="0.5"/>
+              <line x1="12" y1="12" x2="5"  y2="7"  stroke="currentColor" stroke-width="1.2" opacity="0.5"/>
+              <line x1="12" y1="12" x2="19" y2="7"  stroke="currentColor" stroke-width="1.2" opacity="0.5"/>
+              <line x1="12" y1="12" x2="5"  y2="17" stroke="currentColor" stroke-width="1.2" opacity="0.4"/>
+              <line x1="12" y1="12" x2="19" y2="17" stroke="currentColor" stroke-width="1.2" opacity="0.4"/>
+            </svg>
+          </div>
+          <h3>AI-Augmented</h3>
+          <p>AI isn't a feature; it's the foundation. Every product integrates intelligence at its core — not as a wrapper, but as the engine.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Credibility Strip ── -->
+  <section class="cred-strip">
+    <div class="container">
+      <div class="cred-grid">
+        <div class="cred-item animate-in">
+          <div class="cred-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M12 2L8 8H2l5 4-2 7 7-4 7 4-2-7 5-4h-6z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="cred-value">Apple Keynote</div>
+          <div class="cred-label">App Featured</div>
+        </div>
+        <div class="cred-item animate-in" style="--delay:80ms">
+          <div class="cred-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <rect x="5" y="2" width="14" height="20" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M9 7h6M9 11h6M9 15h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="cred-value">5 Apps</div>
+          <div class="cred-label">on the App Store</div>
+        </div>
+        <div class="cred-item animate-in" style="--delay:160ms">
+          <div class="cred-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="cred-value">2,300+</div>
+          <div class="cred-label">Units Sold Per Year</div>
+        </div>
+        <div class="cred-item animate-in" style="--delay:240ms">
+          <div class="cred-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6 12v5c3 3 9 3 12 0v-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="cred-value">U of Michigan</div>
+          <div class="cred-label">Computer Engineering, 1995</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ── Footer ── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="/assets/svg/logo-daedalus.svg" alt="Daedalus onWing" height="28" width="140">
+        <p class="footer-tagline">Pushing mobile and AI boundaries.</p>
+        <p class="footer-copy">© 2025 Daedalus onWing. All rights reserved.</p>
+      </div>
+      <nav class="footer-nav">
+        <div class="footer-col">
+          <strong>Products</strong>
+          <a href="/products/retiremint.html">RetireMint</a>
+          <a href="/products/minder-ai.html">Minder.ai</a>
+        </div>
+        <div class="footer-col">
+          <strong>Company</strong>
+          <a href="/about.html">About</a>
+          <a href="https://www.linkedin.com/in/MichaelASuarez" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </nav>
+    </div>
+    <div class="footer-bottom">daedalus-onwing.com</div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

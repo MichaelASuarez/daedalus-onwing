@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RetireMint — Retirement Planning That Thinks Like an Engineer</title>
+  <meta name="description" content="Month-by-month retirement simulation with Monte Carlo analysis, historical backtesting against the 2008 crisis, and intelligent withdrawal modeling. Available on iOS and the web.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="RetireMint — Retirement Planning That Thinks Like an Engineer">
+  <meta property="og:description" content="Stress-test your retirement plan against real market crises. Discover exactly how much you can safely withdraw each month.">
+  <meta property="og:url" content="https://daedalus-onwing.com/products/retiremint.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+
+<!-- ── Navigation ── -->
+<nav class="nav" id="nav">
+  <div class="nav-inner container">
+    <a href="/index.html" class="nav-logo">
+      <img src="/assets/svg/logo-daedalus.svg" alt="Daedalus onWing" height="32" width="160">
+    </a>
+    <ul class="nav-links">
+      <li><a href="/index.html" class="nav-link">Home</a></li>
+      <li class="nav-item-dropdown">
+        <button class="nav-link nav-dropdown-trigger active" aria-expanded="false" aria-haspopup="true">
+          Products
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+            <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="/products/retiremint.html" class="nav-dropdown-item">
+            <img src="/assets/svg/logo-retiremint.svg" height="22" width="110" alt="">
+            <div>
+              <strong>RetireMint</strong>
+              <span>Retirement planning simulator</span>
+            </div>
+          </a>
+          <div class="nav-dropdown-divider"></div>
+          <a href="/products/minder-ai.html" class="nav-dropdown-item">
+            <img src="/assets/svg/logo-minder.svg" height="22" width="100" alt="">
+            <div>
+              <strong>Minder.ai</strong>
+              <span>Proactive knowledge intelligence</span>
+            </div>
+          </a>
+        </div>
+      </li>
+      <li><a href="/about.html" class="nav-link">About</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav-mobile-drawer">
+    <a href="/index.html" class="nav-mobile-link">Home</a>
+    <div class="nav-mobile-label">Products</div>
+    <a href="/products/retiremint.html" class="nav-mobile-link nav-mobile-link--sub">RetireMint</a>
+    <a href="/products/minder-ai.html"  class="nav-mobile-link nav-mobile-link--sub">Minder.ai</a>
+    <a href="/about.html" class="nav-mobile-link">About</a>
+  </div>
+</nav>
+
+<main style="padding-top: 68px;">
+
+  <!-- ── Hero ── -->
+  <section class="hero hero-glow-mint" style="min-height: 80vh;">
+    <div class="hero-content">
+      <div class="animate-in">
+        <img src="/assets/images/retiremint-logo.png"
+             alt="RetireMint" class="hero-logo"
+             width="140" height="140"
+             style="border-radius: 28px; box-shadow: 0 0 60px rgba(45,184,122,0.35);">
+      </div>
+      <div class="hero-eyebrow animate-in" style="--delay:100ms">iOS App + Web</div>
+      <h1 class="animate-in" style="--delay:160ms">
+        <span class="grad-mint">RetireMint</span>
+      </h1>
+      <p class="hero-tagline animate-in" style="--delay:220ms">
+        The retirement calculator that thinks like an engineer
+      </p>
+      <p class="hero-desc animate-in" style="--delay:280ms">
+        RetireMint runs month-by-month cash flow simulations — not estimates.
+        Stress-test your plan against the 2008 financial crisis, the dot-com crash,
+        and 1970s stagflation, then discover exactly how much you can safely
+        withdraw each month.
+      </p>
+      <div class="hero-cta animate-in" style="--delay:360ms">
+        <a href="https://apps.apple.com/us/app/retiremint/id6505041195" target="_blank" rel="noopener" class="btn btn-mint">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+          </svg>
+          Download on the App Store
+        </a>
+        <a href="/about.html" class="btn btn-ghost">About the Developer</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Feature Blocks ── -->
+  <section class="section">
+    <div class="container">
+      <div class="feature-blocks">
+
+        <!-- Block 1: Scenarios -->
+        <div class="feature-block animate-in">
+          <div class="feature-block-image">
+            <div class="screen-mockup">
+              <div class="screen-mockup-bar">
+                <div class="screen-mockup-dot"></div>
+                <div class="screen-mockup-dot"></div>
+                <div class="screen-mockup-dot" style="background: var(--mint); opacity: 0.6;"></div>
+              </div>
+              <img src="/assets/images/retiremint-screen-home.png" alt="RetireMint home screen — scenario list">
+            </div>
+          </div>
+          <div class="feature-block-text">
+            <span class="badge badge-mint" style="margin-bottom: 16px; display: inline-flex;">Scenario Management</span>
+            <h3>Multiple Scenarios, One Decision</h3>
+            <p>Build and compare retirement plans for any assumption set — aggressive vs. conservative, joint vs. solo, early retirement vs. traditional. Every scenario runs a full month-by-month simulation, not a rough estimate.</p>
+            <div class="feature-bullet-list">
+              <div class="feature-bullet mint">Save unlimited named scenarios</div>
+              <div class="feature-bullet mint">Compare outcomes side by side</div>
+              <div class="feature-bullet mint">Flexible date notation — plan from any starting point</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Block 2: Monte Carlo -->
+        <div class="feature-block reverse animate-in" style="--delay:80ms">
+          <div class="feature-block-image">
+            <div class="screen-mockup">
+              <div class="screen-mockup-bar">
+                <div class="screen-mockup-dot"></div>
+                <div class="screen-mockup-dot"></div>
+                <div class="screen-mockup-dot" style="background: var(--mint); opacity: 0.6;"></div>
+              </div>
+              <img src="/assets/images/retiremint-screen-results.png" alt="RetireMint result summary screen">
+            </div>
+          </div>
+          <div class="feature-block-text">
+            <span class="badge badge-mint" style="margin-bottom: 16px; display: inline-flex;">Monte Carlo Analysis</span>
+            <h3>Know Your Number Before You Retire</h3>
+            <p>Monte Carlo simulation runs your plan through thousands of modeled futures drawn from real historical market data. You see the probability your plan survives to your maximum age, and the precise maximum sustainable monthly withdrawal.</p>
+            <div class="feature-bullet-list">
+              <div class="feature-bullet mint">Survivorship probability across all paths</div>
+              <div class="feature-bullet mint">Maximum safe monthly withdrawal (binary search optimized)</div>
+              <div class="feature-bullet mint">Year-by-year portfolio projections</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Block 3: Historical Backtesting -->
+        <div class="feature-block animate-in" style="--delay:160ms">
+          <div class="feature-block-image">
+            <div class="screen-mockup">
+              <div class="screen-mockup-bar">
+                <div class="screen-mockup-dot"></div>
+                <div class="screen-mockup-dot"></div>
+                <div class="screen-mockup-dot" style="background: var(--mint); opacity: 0.6;"></div>
+              </div>
+              <img src="/assets/images/retiremint-screen-graphs.png" alt="RetireMint result graphs screen">
+            </div>
+          </div>
+          <div class="feature-block-text">
+            <span class="badge badge-mint" style="margin-bottom: 16px; display: inline-flex;">Historical Backtesting</span>
+            <h3>Stress-Tested Against History</h3>
+            <p>RetireMint replays your portfolio through every major market crisis using actual historical data. If your plan survived 2008, you'll see exactly how. If it didn't, you'll know before it matters.</p>
+            <div class="feature-bullet-list">
+              <div class="feature-bullet mint">2008 financial crisis</div>
+              <div class="feature-bullet mint">2000 dot-com crash</div>
+              <div class="feature-bullet mint">1970s stagflation &amp; high inflation</div>
+              <div class="feature-bullet mint">2020 COVID market shock</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Feature Grid ── -->
+  <section class="section-sm" style="background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+    <div class="container">
+      <div class="section-header animate-in">
+        <span class="section-label">Features</span>
+        <h2>Everything you need to retire with confidence</h2>
+      </div>
+      <div class="feature-grid-6">
+        <div class="feature-cell mint animate-in">
+          <div class="feature-cell-icon icon-mint">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h4>Monte Carlo Simulation</h4>
+          <p>Thousands of stochastic paths using real historical NASDAQ, Fed Funds, and CPI data from 1926 to present.</p>
+        </div>
+        <div class="feature-cell mint animate-in" style="--delay:60ms">
+          <div class="feature-cell-icon icon-mint">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M8 12l3 3 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h4>Historical Backtesting</h4>
+          <p>Replay against 2008, dot-com crash, 1970s stagflation, and 2020 COVID shock — real market periods, real results.</p>
+        </div>
+        <div class="feature-cell mint animate-in" style="--delay:120ms">
+          <div class="feature-cell-icon icon-mint">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M12 20V10M18 20V4M6 20v-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h4>Month-by-Month Cash Flow</h4>
+          <p>Not annual averages — precise monthly simulation tracking every account, withdrawal, and income source.</p>
+        </div>
+        <div class="feature-cell mint animate-in" style="--delay:180ms">
+          <div class="feature-cell-icon icon-mint">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M12 6v6l4 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h4>Pension Tracking with COLA</h4>
+          <p>Model fixed pension income with accurate cost-of-living adjustments across any time horizon.</p>
+        </div>
+        <div class="feature-cell mint animate-in" style="--delay:240ms">
+          <div class="feature-cell-icon icon-mint">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M9 22V12h6v10" stroke="currentColor" stroke-width="1.8"/>
+            </svg>
+          </div>
+          <h4>Mortgage Modeling</h4>
+          <p>Track home value appreciation, loan amortization, and home equity as part of your complete retirement picture.</p>
+        </div>
+        <div class="feature-cell mint animate-in" style="--delay:300ms">
+          <div class="feature-cell-icon icon-mint">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h4>Priority Withdrawal Strategies</h4>
+          <p>Control which accounts are tapped first for tax efficiency. Six strategies including proportional, rebalancing, and high-return-first.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Technical Spec ── -->
+  <section class="section">
+    <div class="container-narrow">
+      <div class="animate-in">
+        <span class="section-label">Under the Hood</span>
+        <div class="spec-panel mint" style="margin-top: 16px;">
+          <pre><strong>Platform   </strong>  iOS native (SwiftUI + SwiftData) · Python / Flask web app
+<strong>Engine     </strong>  RetireSim — shared Swift package, month-by-month deterministic core
+<strong>Methods    </strong>  Monte Carlo · Historical Backtesting · Safe Withdrawal Rate
+<strong>Data       </strong>  NASDAQ · Federal Funds Rate · CPI (1926 – present)
+<strong>Analysis   </strong>  Survivorship probability · Max sustainable withdrawal (binary search)
+<strong>Strategies </strong>  Priority order · Moving average · High-return first · Proportional · Rebalance</pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Download CTA ── -->
+  <section class="section-sm">
+    <div class="container-narrow">
+      <div class="download-section animate-in">
+        <img src="/assets/svg/logo-retiremint.svg" alt="RetireMint" height="40" width="190" style="margin: 0 auto 24px;">
+        <h2>Plan your retirement with precision</h2>
+        <p>Available on iPhone, iPad, and Mac. No subscriptions — just powerful simulation in your pocket.</p>
+        <div class="download-actions">
+          <a href="https://apps.apple.com/us/app/retiremint/id6505041195" target="_blank" rel="noopener" class="btn btn-mint">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+            </svg>
+            Download on the App Store
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ── Footer ── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="/assets/svg/logo-daedalus.svg" alt="Daedalus onWing" height="28" width="140">
+        <p class="footer-tagline">Pushing mobile and AI boundaries.</p>
+        <p class="footer-copy">© 2025 Daedalus onWing. All rights reserved.</p>
+      </div>
+      <nav class="footer-nav">
+        <div class="footer-col">
+          <strong>Products</strong>
+          <a href="/products/retiremint.html">RetireMint</a>
+          <a href="/products/minder-ai.html">Minder.ai</a>
+        </div>
+        <div class="footer-col">
+          <strong>Company</strong>
+          <a href="/about.html">About</a>
+          <a href="https://www.linkedin.com/in/MichaelASuarez" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </nav>
+    </div>
+    <div class="footer-bottom">daedalus-onwing.com</div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
