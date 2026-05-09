@@ -359,7 +359,7 @@ code, pre {
     transparent 70%);
 }
 .hero-content { max-width: 720px; margin: 0 auto; position: relative; z-index: 1; }
-.hero-logo { margin: 0 auto 32px; display: block; }
+.hero-logo { margin: 0 auto 32px; display: block; height: auto; max-width: 100%; }
 .hero-eyebrow {
   display: inline-flex;
   align-items: center;
