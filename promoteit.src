@@ -1,3 +1,5 @@
+#use gh auth login to login first.
+
 git add . 
 git commit 
 git push -u origin main
