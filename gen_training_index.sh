@@ -53,10 +53,24 @@ cat > "$OUTPUT" <<'HEADER'
     .size { color: #888; text-align: right; padding-right: 0; }
     .date { color: #888; }
     .empty { color: #666; margin-top: 20px; }
+    .survey-button {
+      display: inline-block;
+      background: #0e639c;
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      text-decoration: none;
+    }
+    .survey-button:hover {
+      background: #1177bb;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
   <h1>Index of /YBTraining</h1>
+  <a class="survey-button" href="https://forms.gle/7ZSJgxB59o8p61Sd8" target="_blank" rel="noopener">Class Survey</a>
   <table>
     <thead>
       <tr>
